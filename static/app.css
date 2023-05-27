@@ -1,0 +1,28 @@
+.board {
+    border: solid 1px black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+    background-color: blanchedalmond;
+    box-shadow: 1px 1px 1px 0, 0.5;
+}
+
+.board td {
+    text-align: center;
+    width: 2em;
+    height: 2em;
+}
+
+.msg {
+    padding: 1em;
+}
+
+.msg.ok {
+    color: white;
+    background-color: green;
+}
+
+.msg.err {
+    color: white;
+    background-color: red;
+}
